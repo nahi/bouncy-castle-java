@@ -14,7 +14,7 @@ task :gem => 'pkg' do
     s.homepage = 'http://github.com/nahi/bouncy-castle-java/'
     s.summary = 'Gem redistribution of Bouncy Castle jars'
     s.description = 'Gem redistribution of "Legion of the Bouncy Castle Java cryptography APIs" jars at http://www.bouncycastle.org/java.html'
-    s.platform = Gem::Platform::RUBY
+    s.platform = Gem::Platform::CURRENT
     s.require_path = 'lib'
     s.files = ['README', 'LICENSE.html'] + Dir.glob("lib/**/*")
   end
